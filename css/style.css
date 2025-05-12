@@ -872,12 +872,12 @@ h1.heading {
     font-family: inherit;
 }
 
-.menu-item {
+.list-menu-sticky .menu-item {
     overflow-y: auto;
     position: relative;
 }
 
-.menu-title {
+.list-menu-sticky .menu-title {
     position: sticky;
     top: 0;
     background: var(--primary);
@@ -888,13 +888,13 @@ h1.heading {
     padding-left: 20px;
 }
 
-.menu {
+.list-menu-sticky .menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu li {
+.list-menu-sticky .menu li {
     padding: 10px;
     border-bottom: 1px solid #eee;
 }
